@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Timeline</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;  
+        }
+        .section {
+            text-align: center;
+            font-size: 3em;
+            color: white;
+        }
+        .section img {
+            height: 500px;
+            width: 300px;
+            object-fit: cover;
+            margin: 0 auto;
+            display: block;
+            box-shadow: 0 10px 30px rgb(0 0 0 / 15%), 0 1px 4px rgb(0 0 0 / 15%), 0 1px 0 rgb(0 0 0 / 7%);
+        }
+        #fp-nav ul li a span, 
+        .fp-slidesNav ul li a span {
+            background: white;
+        }
+        h1 {
+            margin: 0 0 20px 0;
+        }
+        @media screen and (max-width: 700px) {
+            h1 {
+                font-size: 2em;
+            }
+            .section {
+                font-size: 1.5em;
+            }
+            .section img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>time line page</h1>
+    <div id="fullpage">
+        <div class="section" id="section1">
+            <h1>Our Love: U & ME</h1>
+        </div>
+        <div class="section">
+            <img src="https://i.postimg.cc/bYmdbKN2/Whats-App-Image-2024-05-28-at-22-15-34-95330119.jpg" alt="Timeline Image 1">
+            <h1>Timeline Event 1</h1>
+            <div class="content">
+                This is some text describing the event on the timeline.
+            </div>
+        </div>
+        <div class="section">
+            <img src="https://i.postimg.cc/tT2R3xyH/Whats-App-Image-2024-05-28-at-22-15-35-2a5f74d9.jpg" alt="Timeline Image 2">
+            <h1>Timeline Event 2</h1>
+            <div class="content">
+                This is some text describing another event on the timeline.
+            </div>
+        </div>
+        <div class="section">
+            <img src="https://i.postimg.cc/SKGm4Mnz/Whats-App-Image-2024-05-28-at-22-15-33-00fdf2da.jpg" alt="Timeline Image 3">
+            <h1>Timeline Event 3</h1>
+            <div class="content">
+                This is some text describing yet another event on the timeline.
+            </div>
+        </div>
+        <!-- Add more sections as needed -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script>
+        new fullpage('#fullpage', {  
+            licenseKey: 'YOUR KEY HERE',
+            navigation: true,
+            sectionsColor: ['#ff5f45', '#0798ec', '#fc6c7c', '#fec401'],
+        });
+    </script>
 </body>
 </html>

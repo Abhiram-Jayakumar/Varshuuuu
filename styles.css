@@ -15,12 +15,3 @@ body, html {
     max-width: 100%;
     height: auto;
 }
-.link a {
-    text-decoration: none;
-}
-.link {
-    position: absolute;
-    bottom: 150px; /* Adjust the position from the bottom */
-    left: 62%; /* Center horizontally */
-    transform: translateX(-52%); /* Adjust position to the left */
-}
