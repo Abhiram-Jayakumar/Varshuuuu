@@ -8,7 +8,7 @@ body {
 }
 
 #timeline {
-  padding: 100px 0;
+  padding: 2px 0;
   background: #f7f7f7;
   border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
@@ -17,8 +17,8 @@ body {
 #timeline h1 {
   text-align: center;
   font-size: 3rem;
-  font-weight: 200;
-  margin-bottom: 5px;
+  font-weight: 100;
+  margin-bottom: 20px;
 }
 
 #timeline p.leader {
