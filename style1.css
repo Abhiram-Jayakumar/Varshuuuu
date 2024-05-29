@@ -18,7 +18,7 @@ body {
   text-align: center;
   font-size: 3rem;
   font-weight: 200;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 #timeline p.leader {
@@ -208,6 +208,16 @@ body {
 .demo-card--step4 .head::after { border-right-color: #4d92eb; }
 .demo-card--step5 { background-color: #46b8e9; }
 .demo-card--step5 .head::after { border-left-color: #46b8e9; }
+.demo-card--step6 { background-color:  #3ee9d1; }
+.demo-card--step6 .head::after { border-left-color:  #3ee9d1; }
+.demo-card--step7 { background-color: #ce43eb; }
+.demo-card--step7 .head::after { border-left-color: #ce43eb; }
+.demo-card--step8 { background-color: #4d92eb; }
+.demo-card--step8 .head::after { border-left-color: #4d92eb; }
+.demo-card--step9 { background-color: #46b8e9; }
+.demo-card--step9 .head::after { border-left-color: #46b8e9; }
+.demo-card--step10 { background-color: #3ee9d1; }
+.demo-card--step10 .head::after { border-left-color: #3ee9d1; }
 
 /* Flexbox Order for Large Screens */
 @media (min-width: 1000px) {
